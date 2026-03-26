@@ -3,6 +3,7 @@ package com.klu.model;
 import jakarta.persistence.*;
 
 @Entity
+@Table(name = "product") 
 public class Product {
 
     @Id
